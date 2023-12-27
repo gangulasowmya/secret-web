@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <a href="./new-year-poster.html">
+        <button id="Button">Click me</button></a>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width:100%;
+            height:100vh;
+            background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./buildings.webp);
+            background-size: cover;
+            background-position: center;
+
+        }
+        #story{
+            position: absolute;
+            top:35%;
+            left:35%;
+            color:white;
+            font-weight: bold;
+        }
+        #Button{
+          width:80px;
+          height: 40px;
+          position: absolute;  
+          top:60%;
+          left:49%;
+          border-radius: 18px;
+          font-weight: bold;
+          font-size: 14px;
+          cursor: pointer;
+          color: white;
+          background-color:rgb(2, 158, 255) ;
+          transition:opacity 1s;
+
+        }
+        #Button:hover{
+            opacity: 0.8;
+        }
+        #Button:active{
+           opacity: 0.4;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+    <h1 id="story">Click on the below Button <br>i will tell you<br> one secret</h1>
+    <br>
+    <br>
+</center>
+</body>
+</html>
